@@ -13,16 +13,25 @@
     text-transform: uppercase;
 }
 
+.nav a:hover {
+	color: #FFBB7E;	
+}
+.nav li {
+	display: inline;
+}
+
 .body {
 	margin: auto;
     width: auto;
-    height: 800px;
+    height: 600px;
 	background-color: #FAf5D5;
 }
 
 .intro .container {
-	height: 150px;
+	height: 500px;
 	background-color: #A2BDA8;
+	padding-top: 50px;
+	padding-left: 50px;
 }
 
 .intro h1 {
@@ -30,12 +39,23 @@
 }
 
 .writing .container {
-	height: 300px;
+	height: 500px;
 	background-color: #A2BDA8;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+.writing h1 {
+	font-weight: bold;
 }
 
 .writing h3 {
 	font-weight: bold;
+
+}
+
+.writing .row {
+	margin-top: 40px;
 }
 
 .writing a {
