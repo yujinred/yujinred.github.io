@@ -34,6 +34,11 @@
 	padding-left: 50px;
 }
 
+.intro img {
+	max-width: 500px;
+	max-height: 500px;
+}
+
 .intro h1 {
 	font-weight: bold;
 }
